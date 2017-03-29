@@ -21,6 +21,13 @@ public class MainActivity extends AppCompatActivity  {
         btnPuntuacion = (Button)findViewById(R.id.btnPuntuacion);
         btnSalir = (Button) findViewById( R.id.btnSalir);
 
+        btnIniciar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(intent);
+            }
+        });
+
     }
 
 
